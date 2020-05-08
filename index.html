@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>切噜~♪</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      textarea {
+        width: 500px;
+        height: 200px;
+        resize: none;
+        display: block;
+        margin: 0 auto;
+      }
+      button {
+        margin: 8px 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>切噜~♪</h1>
+    <p>密文无视所有的非中文字符，标点换行随便加。</p>
+    <textarea id="sourceArea"></textarea>
+    <button id="encryptButton">↓加密</button>
+    <label>
+      <input type="checkbox" id="randomMark" checked />
+      瞎几把加点标点
+    </label>
+    <button id="decryptButton">↑解密</button>
+    <textarea id="targetArea"></textarea>
+    <script src="./script.js"></script>
+  </body>
+</html>
