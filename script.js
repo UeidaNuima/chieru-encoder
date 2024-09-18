@@ -93,7 +93,7 @@ window.onload = () => {
       /** @type string */
       const sourceText = document.getElementById('targetArea').value;
       if (sourceText.slice(0, 3) !== '切噜～') {
-        throw Error('格式不太对');
+        throw Error('Invalid format');
       }
       const resultText = chieruDecode(sourceText);
       document.getElementById('sourceArea').value = resultText;
